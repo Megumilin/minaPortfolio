@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -133,4 +134,137 @@ h6{
      margin-left: 0px;
 }
 
+=======
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+*,*::before,*::after {
+box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(44, 44, 44);
+    font-family: "Noto Serif TC", "Cardo", sans-serif;
+    color: white;
+    line-height: 24px;
+}
+
+.logo{
+    color: #758AB6;
+    font-size: 40px;
+    font-family: 'Knewave', system-ui;
+}
+
+.navbar{
+    background: linear-gradient(#eacd76 50%, #a7904c 100%);
+    opacity: 0.9;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Bagel Fat One', system-ui;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h6{
+    font-family: 'Bagel Fat One', system-ui;
+}
+
+.pig {
+    margin-top: 112px;
+}
+
+.pigCard{
+    border: 1px solid #D6304A;
+    border-radius: 40px;
+}
+
+.news a{
+    text-decoration:none;
+}
+
+.news a:hover{
+    color: #D6304A;
+}
+
+.btn{ 
+    background-color: black;
+    color: aliceblue;
+    text-decoration:none;
+    margin: 16px;
+  }
+
+  .btn:hover{
+    border: 1px solid  #eacd76; 
+    color: black;
+    background-color: #D6304A;
+    box-shadow: 4px 4px #a3414f;
+  }
+
+  footer{
+    /* border-radius: 40px 40px 0px 0px; */
+    background: linear-gradient(#eacd76 50%,#a7904c 100%);
+  }
+
+  @media (max-width: 767px) {  
+    .introductionCard img{
+     margin-left: 0px;
+}
+
+>>>>>>> 56ac07856f088470153c3173a15c92c96f955f3a
 }
