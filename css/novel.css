@@ -1,0 +1,136 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+*,*::before,*::after {
+box-sizing: border-box;
+}
+
+
+
+body{
+    background-color: #FFFEF6;
+    font-family: "Noto Serif TC", "Cardo", sans-serif;
+    line-height: 24px;
+}
+
+.logo{
+    color: #758AB6;
+    font-size: 40px;
+    font-family: 'Knewave', system-ui;
+}
+
+.navbar{
+    background: linear-gradient(to top, #FFF2E1 0%, #FFE4BC 100%, #FFF2E1 100%, #FFE4BC 100%);
+    opacity: 0.9;
+}
+
+.introduction {
+    margin-top: 112px;
+}
+
+.introductionCard{
+    background-color: #FFF2E1 ;
+    border-radius: 0px 40px 0px 40px;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Bagel Fat One', system-ui;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h6{
+    font-family: 'Bagel Fat One', system-ui;
+}
+
+.commentCard{
+    background: linear-gradient(to top, #FFF2E1 0%, #FFE4BC 100%, #FFF2E1 100%, #FFE4BC 100%);
+    border: none;
+    position: relative;
+}
+
+.netizen{
+    position: absolute;
+    top: -45px;
+    z-index:1;
+}
+
+.box{
+    height: 24px;
+}
+
+.inside{
+    /* border: 1px solid #7e5723 ;  */
+    text-align: center;
+    margin: 0px 12px;
+    border: none;
+}
+
+.inside h5{
+    padding: 50px 0px 70px 0px;
+}
+
+.btn{ 
+    border: 1px solid #E78C52;
+    text-decoration:none;
+    margin: 16px;
+  }
+
+  .btn:hover{
+    border: 1px solid rgba(231, 140, 82, 0.5);
+    box-shadow: 4px 4px rgba(231, 140, 82, 0.5);
+  }
