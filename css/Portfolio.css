@@ -88,6 +88,7 @@ body{
     z-index:1;
     border-radius: 0px 40px 0px 40px;
     margin-left: 40px;
+    max-width: 130px;
 }
 
 h1 {
