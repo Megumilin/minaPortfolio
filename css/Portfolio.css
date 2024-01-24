@@ -56,8 +56,9 @@ box-sizing: border-box;
 }
 
 body{
-    background: linear-gradient(#758AB6, #C8B6D6);
-    background-repeat:no-repeat;
+    background-color: #C8B6D6;
+    /* background: linear-gradient(#758AB6, #C8B6D6); */
+    /* background-repeat:no-repeat; */
     line-height: 24px;
 }
 
@@ -68,7 +69,8 @@ body{
 }
 
 .navbar{
-    background-color: #C8B6D6;
+    background: rgba(255, 255, 255, .5);
+    /* background-color: #C8B6D6; */
     opacity: 0.9;
 }
 
@@ -78,7 +80,7 @@ body{
 
 .introductionCard{
     position: relative; 
-    background: hsla(0,0%,100%,.1); 
+    background: rgba(255, 255, 255, .2);
     border-radius: 0px 40px 0px 40px;
 }
 
