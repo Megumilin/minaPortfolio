@@ -57,9 +57,8 @@ box-sizing: border-box;
 
 
 body{
-    background-color: rgb(44, 44, 44);
+    background-color: #C8B6D6;
     font-family: "Noto Serif TC", "Cardo", sans-serif;
-    color: white;
     line-height: 24px;
 }
 
@@ -74,7 +73,7 @@ body{
   }
 
 .navbar{
-    background: linear-gradient(#eacd76 50%, #a7904c 100%);
+    background: rgba(255, 255, 255, .5);
     opacity: 0.9;
 }
 
@@ -97,7 +96,7 @@ h6{
 }
 
 .pigCard{
-    border: 1px solid #D6304A;
+    border: 1px solid #758AB6;;
     border-radius: 40px;
 }
 
@@ -109,23 +108,21 @@ h6{
     color: #D6304A;
 }
 
-.btn{ 
-    background-color: black;
-    color: aliceblue;
-    text-decoration:none;
-    margin: 16px;
+.btn{
+    border: 1px solid #ddd3f0;
+    background: radial-gradient(#758AB6, #C8B6D6);
+    /* box-shadow: 4px 4px #758AB6; */
+    color: white;
+    font-family: 'Bagel Fat One', system-ui;
   }
 
   .btn:hover{
-    border: 1px solid  #eacd76; 
-    color: black;
-    background-color: #D6304A;
-    box-shadow: 4px 4px #a3414f;
+    background: linear-gradient(#ddd3f0 5%, #758AB6 15%, #C8B6D6 100%);
   }
 
   footer{
     /* border-radius: 40px 40px 0px 0px; */
-    background: linear-gradient(#eacd76 50%,#a7904c 100%);
+    background: rgba(255, 255, 255, .5);
   }
 
   @media (max-width: 767px) {  

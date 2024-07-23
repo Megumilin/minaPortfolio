@@ -58,7 +58,7 @@ box-sizing: border-box;
 
 
 body{
-    background-color: #FFFEF6;
+    background-color: #C8B6D6;
     font-family: "Noto Serif TC", "Cardo", sans-serif;
     line-height: 24px;
 }
@@ -74,8 +74,8 @@ body{
   }
 
 .navbar{
-    background: linear-gradient(to top, #FFF2E1 0%, #FFE4BC 100%, #FFF2E1 100%, #FFE4BC 100%);
-    opacity: 0.9;
+     background: rgba(255, 255, 255, .5);
+     opacity: 0.9;
 }
 
 .introduction {
@@ -83,7 +83,7 @@ body{
 }
 
 .introductionCard{
-    background-color: #FFF2E1 ;
+    background-color: #d9c6e7 ;
     border-radius: 0px 40px 0px 40px;
 }
 
@@ -102,7 +102,7 @@ h6{
 }
 
 .commentCard{
-    background: linear-gradient(to top, #FFF2E1 0%, #FFE4BC 100%, #FFF2E1 100%, #FFE4BC 100%);
+    background: linear-gradient(to top, #d9c6e7 0%, #9783a5 100%, #d7b0f3 100%, #b988db 100%);
     border: none;
     position: relative;
 }
@@ -122,19 +122,25 @@ h6{
     text-align: center;
     margin: 0px 12px;
     border: none;
+    background-color: #d9c6e7 ;
 }
 
 .inside h5{
     padding: 50px 0px 70px 0px;
 }
 
-.btn{ 
-    border: 1px solid #E78C52;
-    text-decoration:none;
-    margin: 16px;
+.btn{
+    border: 1px solid #ddd3f0;
+    background: radial-gradient(#758AB6, #C8B6D6);
+    /* box-shadow: 4px 4px #758AB6; */
+    color: white;
+    font-family: 'Bagel Fat One', system-ui;
   }
 
   .btn:hover{
-    border: 1px solid rgba(231, 140, 82, 0.5);
-    box-shadow: 4px 4px rgba(231, 140, 82, 0.5);
+    background: linear-gradient(#ddd3f0 5%, #758AB6 15%, #C8B6D6 100%);
+  }
+
+  footer{
+    background: rgba(255, 255, 255, .5);
   }
