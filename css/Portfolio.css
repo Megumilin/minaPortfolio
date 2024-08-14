@@ -155,6 +155,10 @@ h6{
     padding: 50px 0px 70px 0px;
 }
 
+.skill {
+    flex-wrap: wrap; /* 允許圖片在小於768px的寬度時換行 */
+}
+
 .portfolioCard{
     background: hsla(0,0%,100%,.1); 
     border: 1px solid hsla(0,0%,100%,.1); 
@@ -205,4 +209,31 @@ h6{
     .minaimg{
         margin-top: 110px;
     }
+}
+
+/* 確保所有 .commentCard 容器的高度相等 */
+.commentCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%; /* 讓容器撐滿父容器的高度 */
+}
+
+/* 讓 .inside 內容容器在 .commentCard 內部具有相同的高度 */
+.inside {
+    flex-grow: 1; /* 讓 .inside 撐開以填滿剩餘空間 */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* 使內部元素分佈均勻 */
+}
+
+/* 確保 .row 使用 Flexbox，讓子元素具有相同的高度 */
+.row {
+    display: flex;
+    flex-wrap: wrap; /* 允許在小螢幕上換行 */
+}
+
+.col-md-4 {
+    display: flex;
+    flex-direction: column;
 }
