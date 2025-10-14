@@ -78,13 +78,8 @@ body{
      opacity: 0.9;
 }
 
-.introduction {
-    margin-top: 112px;
-}
-
-.introductionCard{
-    background-color: #d9c6e7 ;
-    border-radius: 0px 40px 0px 40px;
+.banner {
+    margin-top: 80px;
 }
 
 h1 {
