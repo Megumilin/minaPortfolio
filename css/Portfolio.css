@@ -111,20 +111,12 @@ h6{
     font-family: 'Bagel Fat One', system-ui;
 }
 
-/* .mybtn{ */
-    /* display: inline-block; */
-    /* padding: 10px 30px; */
-    /* margin-top: 16px; */
-    /* text-decoration: none; */
-    /* border-radius: 8px; */
-    /* text-align: center; */
-    /* border: 2px solid white; */
-    /* color: black; */
-/* } */
-/*  */
-/* .mybtn:hover{ */
-    /* background: linear-gradient(#ddd3f0 5%, #758AB6 15%, #C8B6D6 100%); */
-/* } */
+.clickable-image {
+            width: 80px;          /* 設定圖片寬度 */
+            cursor: pointer;       /* 滑鼠移上變手指 */
+            transition: 0.3s;      /* 加點動畫效果（可選） */
+            margin-top: 8px;
+        }
 
 
 
